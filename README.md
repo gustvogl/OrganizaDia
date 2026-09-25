@@ -9,7 +9,7 @@ Aplicativo offline de tarefas e compromissos. Cadastra título, prazo, categoria
 3. Quando a execução terminar, baixe **OrganizaDia-APK** na seção **Artifacts** e extraia o arquivo `app-debug.apk`.
 4. Instale esse APK no celular. No Android, permita a instalação pelo app usado para abrir o arquivo quando aparecer a solicitação.
 
-O workflow usa Java 17, Gradle 8.9 e Android Gradle Plugin 8.7.3. O APK é de depuração para que a WebView apareça em `chrome://inspect/#devices` durante a atividade PPDM2.
+O workflow usa o SDK Android pré-instalado no runner do GitHub, Java 17, Gradle 8.9 e Android Gradle Plugin 8.7.3. O APK é de depuração para que a WebView apareça em `chrome://inspect/#devices` durante a atividade PPDM2.
 
 ## Dados e backup
 
